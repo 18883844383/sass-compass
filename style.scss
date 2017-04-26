@@ -1,0 +1,12 @@
+
+.red-color{
+  color: red;
+}
+a{
+  font-weight: bold;
+  @extend .red-color;
+}
+
+.error{
+  @extend .red-color;
+}
